@@ -4,25 +4,20 @@ import { DefaultSeo } from 'next-seo'
 import * as React from 'react'
 
 const defaultSEO = {
-  title: 'Ishan Shah',
+  title: 'Miles Butler',
   description:
-    'Software engineer living in NYC.',
+    'Software engineer living in DC.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.ishanshah.me',
-    site_name: 'Ishan Shah',
-    images: [
-      {
-        url: 'https://www.ishanshah.me/static/og/default.png',
-        alt: 'Ishan Shah',
-      },
-    ],
-  },
-  twitter: {
-    handle: '@ishan0102',
-    site: '@ishan0102',
-    cardType: 'summary_large_image',
+    url: 'https://www.milesbutler.me',
+    site_name: 'Miles Butler',
+    // images: [
+    //   {
+    //     url: 'https://www.ishanshah.me/static/og/default.png',
+    //     alt: 'Miles Butler',
+    //   },
+    // ],
   },
 }
 
@@ -52,8 +47,8 @@ export function Providers() {
         />
 
         {/* OpenGraph */}
-        <meta property="og:title" content="Ishan Shah" key="title" />
-        <meta property="og:image" content="https://www.ishanshah.me/static/og/default.png" />
+        {/* <meta property="og:title" content="Ishan Shah" key="title" /> */}
+        {/* <meta property="og:image" content="https://www.ishanshah.me/static/og/default.png" /> */}
       </Head>
 
       {/* Global Site Tag (gtag.js) - Google Analytics */}

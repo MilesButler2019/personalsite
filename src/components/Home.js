@@ -95,12 +95,6 @@ export function Home() {
                   subtitle={'Follow'}
                   date={''}
                 />
-                <TableRow
-                  href={'https://twitter.com/ishan0102'}
-                  title={'Twitter'}
-                  subtitle={'Follow'}
-                  date={''}
-                />
               </div>
             </SectionContent>
           </SectionContainer>

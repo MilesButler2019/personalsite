@@ -27,12 +27,12 @@ export function Nav() {
       </div>
       <div className="flex items-center w-auto">
         <div className="text-sm md:text-base font-normal md:font-medium md:flex-grow">
-          <Link href="/portfolio">
-            <a className="inline-block mr-3 md:mr-8 text-primary hover:text-indigo-500">
-              Portfolio
-            </a>
-          </Link>
-          <Link href="https://ishan.coffee">
+          {/* <Link href="/portfolio"> */}
+            {/* <a className="inline-block mr-3 md:mr-8 text-primary hover:text-indigo-500"> */}
+              {/* Portfolio */}
+            {/* </a> */}
+          {/* </Link> */}
+          <Link href="https://milesbutler.org">
             <a target="_blank" rel="noopener noreferrer" className="inline-block mr-3 md:mr-8 text-primary hover:text-indigo-500">
               Notes
             </a>
